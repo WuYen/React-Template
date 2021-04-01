@@ -44,6 +44,6 @@ module.exports = (env, options) => {
       extensions: ["*", ".js", ".jsx"],
     },
     plugins: [htmlPlugin],
-    ...(isDevEnv && { devServer })
+    ...(isDevEnv && { devServer, devtool: "eval-cheap-module-source-map" }),
   };
 };
