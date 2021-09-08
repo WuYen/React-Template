@@ -1,2 +1,2 @@
 # React-Template
-A react project without CRA.
+A react project with custom webpack config(without CRA).
